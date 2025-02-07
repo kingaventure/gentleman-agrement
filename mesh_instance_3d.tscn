@@ -1,0 +1,18 @@
+[gd_scene load_steps=5 format=3 uid="uid://c1dte5fe77ovn"]
+
+[ext_resource type="Shader" path="res://mesh_instance_3d.gdshader" id="1_co04i"]
+[ext_resource type="Texture2D" uid="uid://dfm6t2xgga61" path="res://Height Map PNG.png" id="2_rslrr"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_heyrh"]
+render_priority = 0
+shader = ExtResource("1_co04i")
+shader_parameter/height_scale = 1.0
+shader_parameter/terrain_size = Vector2(100, 100)
+shader_parameter/heightmap = ExtResource("2_rslrr")
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_yj1cn"]
+
+[node name="MeshInstance3D" type="MeshInstance3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0702642, 0, 0)
+material_override = SubResource("ShaderMaterial_heyrh")
+mesh = SubResource("PlaneMesh_yj1cn")
