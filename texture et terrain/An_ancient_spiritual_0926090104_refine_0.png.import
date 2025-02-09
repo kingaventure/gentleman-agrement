@@ -1,0 +1,38 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://b54tg1idto4t1"
+path.s3tc="res://.godot/imported/An_ancient_spiritual_0926090104_refine_0.png-fdc1ee65bd98b056cfbba9a9beabb734.s3tc.ctex"
+metadata={
+"imported_formats": ["s3tc_bptc"],
+"vram_texture": true
+}
+generator_parameters={
+"md5": "9fa8aba3cc9a9578d83e5cbe02176135"
+}
+
+[deps]
+
+source_file="res://texture et terrain/An_ancient_spiritual_0926090104_refine_0.png"
+dest_files=["res://.godot/imported/An_ancient_spiritual_0926090104_refine_0.png-fdc1ee65bd98b056cfbba9a9beabb734.s3tc.ctex"]
+
+[params]
+
+compress/mode=2
+compress/high_quality=false
+compress/lossy_quality=0.7
+compress/hdr_compression=1
+compress/normal_map=0
+compress/channel_pack=0
+mipmaps/generate=true
+mipmaps/limit=-1
+roughness/mode=0
+roughness/src_normal=""
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/normal_map_invert_y=false
+process/hdr_as_srgb=false
+process/hdr_clamp_exposure=false
+process/size_limit=0
+detect_3d/compress_to=0

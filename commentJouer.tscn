@@ -1,0 +1,33 @@
+[gd_scene load_steps=2 format=3 uid="uid://xircswporm53"]
+
+[ext_resource type="Script" path="res://retour.gd" id="1_1ikye"]
+
+[node name="Comment Jouer" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 1159.0
+offset_bottom = 648.0
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 0
+offset_right = 1154.0
+offset_bottom = 650.0
+alignment = 1
+
+[node name="Label" type="Label" parent="VBoxContainer"]
+layout_mode = 2
+text = "Le jeu est sur une base de pierre feuillle ciseaux
+
+Vous pouvez faire 3 actions, Attaquer, bloquer et briser la guarde
+
+Attaquer peut ce faire bloquer
+
+Si vous bloquez votre guarde peut ce faire briser et vous serez stun pendant 1 tour
+
+Si vous briser votre guarde vous pouvez vous faire attaquer"
+horizontal_alignment = 1
+
+[node name="Button" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+text = "Retour"
+script = ExtResource("1_1ikye")
